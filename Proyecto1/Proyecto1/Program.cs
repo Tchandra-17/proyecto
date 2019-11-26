@@ -72,8 +72,6 @@ namespace Proyecto1
                 Console.WriteLine("Pulse una tecla para salir del programa");
             }
             Console.ReadKey();
-
-
         }
     }
 }
