@@ -28,7 +28,7 @@ namespace Proyecto1
                     case 1:
                         Console.Clear();
                         Personal ma = new Personal();
-                        ma.AgregarPersonal();
+                        ma.PersonalHospital();
 
                         break;
                     case 2:
