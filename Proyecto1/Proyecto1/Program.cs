@@ -15,8 +15,8 @@ namespace Proyecto1
             {
                 Console.Clear();
                 Console.WriteLine("Elija una opción");
-                Console.WriteLine("1.- Agregar personal médico");
-                Console.WriteLine("2.- Buscar personal médico");
+                Console.WriteLine("1.- Personal");
+                Console.WriteLine("2.- Pacientes");
                 Console.WriteLine("3.- Ejercicio 3");
                 Console.WriteLine("4.- Ejercicio 4");
                 Console.WriteLine("5.- Ejercicio 5");
@@ -26,14 +26,12 @@ namespace Proyecto1
                 switch (opcion)
                 {
                     case 1:
-                        Console.Clear();
-                        Personal ma = new Personal();
-                        ma.PersonalHospital();
+                        
 
                         break;
                     case 2:
                         Console.Clear();
-
+                        Paciente.RegistrosdePacientes();
                         break;
                     case 3:
                         Console.Clear();
