@@ -65,7 +65,7 @@ namespace Proyecto1
                             edad = Console.ReadLine();
                             ///Pedir al usuario que ingrese los sintomas del paciente///
                             Console.WriteLine("Sintomas");
-                            ///Leer la variable string "apellido"///
+                            ///Leer la variable string "sintomas"///
                             sintomas = Console.ReadLine();
                             ///Agregar un if, usando las herramientas trim para quitar todos los espcios
                             ///en blanco del valor agregado a la variable nombre, y si es igual a la una

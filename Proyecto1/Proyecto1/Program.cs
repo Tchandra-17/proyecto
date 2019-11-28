@@ -26,8 +26,8 @@ namespace Proyecto1
                 switch (opcion)
                 {
                     case 1:
-                        
-
+                        Console.Clear();
+                        Personal.PersonalHospital();
                         break;
                     case 2:
                         Console.Clear();
